@@ -2,7 +2,7 @@
 
 ![Custom Cursor Loader](docs/images/cover.png)
 
-0.2.2 下载：[安装包](releases/v0.2.2/CustomCursorLoader-v0.2.2.zip) · [源码包](releases/v0.2.2/CustomCursorLoader-v0.2.2-source.zip) · [工坊上传包](releases/v0.2.2/CustomCursorLoader-v0.2.2-workshop.zip) · [SHA-256](releases/v0.2.2/SHA256SUMS.txt)。三个包均包含 128 张咖波图库，安装步骤见下方中文安装说明。
+0.2.2 下载：[版本发布页](https://github.com/cachagre/CustomCursorLoader/releases/tag/v0.2.2) · [安装包](https://github.com/cachagre/CustomCursorLoader/releases/download/v0.2.2/CustomCursorLoader-v0.2.2.zip) · [源码包](https://github.com/cachagre/CustomCursorLoader/releases/download/v0.2.2/CustomCursorLoader-v0.2.2-source.zip) · [工坊上传包](https://github.com/cachagre/CustomCursorLoader/releases/download/v0.2.2/CustomCursorLoader-v0.2.2-workshop.zip) · [SHA-256](releases/v0.2.2/SHA256SUMS.txt)。三个包均包含 128 张咖波图库，安装步骤见下方中文安装说明。
 
 让《杀戮尖塔2》用本地 PNG/APNG、WebP、GIF 作为普通、地图画笔和橡皮擦光标。图片无需编译进 Mod，支持透明背景、缩放、源图热点和透明度，保留其他游戏特殊光标与手柄隐藏逻辑。
 
