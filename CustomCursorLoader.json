@@ -1,0 +1,12 @@
+{
+  "id": "CustomCursorLoader",
+  "name": "Custom Cursor Loader / 自定义光标加载器",
+  "author": "Toyer1209",
+  "description": "Includes a Capoo cursor gallery, automatically imported on startup. PNG/APNG/WebP/GIF with selectable idle frames; hold right-click to animate. F10 settings, Ctrl+Alt+=/- resize, F8 reload, F9 restore.",
+  "version": "0.2.2",
+  "has_dll": true,
+  "has_pck": false,
+  "dependencies": [],
+  "affects_gameplay": false,
+  "min_game_version": "0.111.0"
+}

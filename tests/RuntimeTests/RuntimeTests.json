@@ -1,0 +1,11 @@
+{
+  "id": "RuntimeTests",
+  "name": "Custom Cursor Loader isolated tests",
+  "author": "Custom Cursor Loader contributors",
+  "version": "0.1.2",
+  "has_dll": true,
+  "has_pck": false,
+  "affects_gameplay": false,
+  "min_game_version": "0.111.0",
+  "dependencies": [{ "id": "CustomCursorLoader", "min_version": "0.1.2" }]
+}

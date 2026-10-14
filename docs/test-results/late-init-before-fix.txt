@@ -1,0 +1,3 @@
+RUNTIME PASS 1 用户数据隔离
+RUNTIME PASS 2 晚初始化前光标节点已进入场景
+RUNTIME FAIL System.Exception: 晚初始化主动绑定已存在的光标节点

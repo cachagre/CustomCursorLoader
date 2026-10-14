@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Version>0.2.2</Version>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <GameDataDir Condition="'$(GameDataDir)' == ''">$(GameDir)/data_sts2_windows_x86_64</GameDataDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src/**/*.cs" />
+    <EmbeddedResource Include="assets/default.png" LogicalName="CustomCursorLoader.default.png" />
+    <Reference Include="sts2" HintPath="$(GameDataDir)/sts2.dll" Private="false" />
+    <Reference Include="GodotSharp" HintPath="$(GameDataDir)/GodotSharp.dll" Private="false" />
+    <Reference Include="0Harmony" HintPath="$(GameDataDir)/0Harmony.dll" Private="false" />
+  </ItemGroup>
+  <Target Name="CheckGameFiles" BeforeTargets="ResolveReferences">
+    <Error Condition="!Exists('$(GameDataDir)/sts2.dll') or !Exists('$(GameDataDir)/GodotSharp.dll') or !Exists('$(GameDataDir)/0Harmony.dll')"
+           Text="请通过 -p:GameDir=游戏安装目录 或 -p:GameDataDir=游戏托管 DLL 目录 指定真实游戏文件。" />
+  </Target>
+</Project>

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../src/CursorConfig.cs" Link="CursorConfig.cs" />
+    <Compile Include="../../src/PngData.cs" Link="PngData.cs" />
+    <Compile Include="../../src/CursorLibrary.cs" Link="CursorLibrary.cs" />
+    <Compile Include="../../src/CursorFile.cs" Link="CursorFile.cs" />
+    <Compile Include="../../src/AnimationPackets.cs" Link="AnimationPackets.cs" />
+  </ItemGroup>
+</Project>

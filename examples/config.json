@@ -1,0 +1,14 @@
+{
+  "enabled": true,
+  "cursorImage": "cursors/default.png",
+  "scale": 1.0,
+  "opacity": 1.0,
+  "hotspotX": 3,
+  "hotspotY": 3,
+  "drawCursorImage": "",
+  "drawHotspotX": 0,
+  "drawHotspotY": 0,
+  "eraseCursorImage": "",
+  "eraseHotspotX": 0,
+  "eraseHotspotY": 0
+}

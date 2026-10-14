@@ -1,0 +1,27 @@
+RUNTIME PASS 1 用户数据隔离
+RUNTIME PASS 2 晚初始化前光标节点已进入场景
+RUNTIME PASS 3 晚初始化主动绑定已存在的光标节点
+RUNTIME PASS 4 真实 ModManager 加载 DLL
+RUNTIME PASS 5 Godot 默认PNG解码与透明背景
+RUNTIME PASS 6 重复初始化不重复补丁
+RUNTIME PASS 7 创建隔离PNG数据
+RUNTIME PASS 8 C#加载器实际缩放
+RUNTIME PASS 9 C#加载器实际透明度
+RUNTIME PASS 10 热点随缩放换算
+RUNTIME PASS 11 Harmony前缀实际执行
+RUNTIME PASS 12 连续重载释放旧Image包装器
+RUNTIME PASS 13 游戏特殊OverrideCursor优先
+RUNTIME PASS 14 结束特殊状态后恢复自定义
+RUNTIME PASS 15 原版按下状态保留
+RUNTIME PASS 16 原版释放状态保留
+RUNTIME PASS 17 禁用恢复原游戏Image
+RUNTIME PASS 18 图片不存在安全回退
+RUNTIME PASS 19 损坏PNG解码失败安全回退
+RUNTIME PASS 20 超大PNG在解码前回退
+RUNTIME PASS 21 配置格式错误安全回退
+RUNTIME PASS 22 PNG不可读安全回退
+RUNTIME PASS 23 配置不可读安全回退
+RUNTIME PASS 24 F9处理逻辑恢复并持久化
+RUNTIME PASS 25 文件修改自动重载
+RUNTIME PASS 26 检查光标资源未修改
+RUNTIME COMPLETE 26 checks passed; headless is not visual validation.

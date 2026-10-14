@@ -1,0 +1,10 @@
+bin/
+obj/
+dist/
+tests/**/bin/
+tests/**/obj/
+*.user
+*.local.ps1
+*.bak
+install-backups/
+work/

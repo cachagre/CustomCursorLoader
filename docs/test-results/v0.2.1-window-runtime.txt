@@ -1,0 +1,260 @@
+RUNTIME PASS 1 用户数据隔离
+RUNTIME PASS 2 晚初始化前光标节点已进入场景
+RUNTIME PASS 3 晚初始化主动绑定已存在的光标节点
+RUNTIME PASS 4 真实 ModManager 加载 DLL
+RUNTIME PASS 5 Godot 默认PNG解码与透明背景
+RUNTIME PASS 6 重复初始化不重复补丁
+RUNTIME PASS 7 创建隔离PNG数据
+RUNTIME PASS 8 C#加载器实际缩放
+RUNTIME PASS 9 C#加载器实际透明度
+RUNTIME PASS 10 热点随缩放换算
+RUNTIME PASS 11 Harmony前缀实际执行
+RUNTIME PASS 12 真实输入组合键放大8像素
+RUNTIME PASS 13 按住组合键不连续重载
+RUNTIME PASS 14 组合键缩小并持久化且保留热点透明度
+RUNTIME PASS 15 没有CtrlAlt时不调整大小
+RUNTIME PASS 16 连续重载释放旧Image包装器
+RUNTIME PASS 17 游戏特殊OverrideCursor优先
+RUNTIME PASS 18 结束特殊状态后恢复自定义
+RUNTIME PASS 19 原版按下状态保留
+RUNTIME PASS 20 原版释放状态保留
+RUNTIME PASS 21 禁用恢复原游戏Image
+RUNTIME PASS 22 缩放快捷键不会重新启用已禁用光标
+RUNTIME PASS 23 图片不存在安全回退
+RUNTIME PASS 24 损坏PNG解码失败安全回退
+RUNTIME PASS 25 超大PNG在解码前回退
+RUNTIME PASS 26 配置格式错误安全回退
+RUNTIME PASS 27 PNG不可读安全回退
+RUNTIME PASS 28 配置不可读安全回退
+RUNTIME PASS 29 F9处理逻辑恢复并持久化
+RUNTIME PASS 30 创建大尺寸源图
+RUNTIME PASS 31 大源图缩小到56且热点同步
+RUNTIME PASS 32 快捷缩放最小16像素
+RUNTIME PASS 33 快捷缩放最大256像素
+RUNTIME PASS 34 快捷缩放配置不可读时安全恢复
+RUNTIME PASS 35 文件修改自动重载
+RUNTIME PASS 36 检查光标资源未修改
+RUNTIME PASS 37 最后一次快捷键大小保存为72像素供重启验证
+RUNTIME PASS 38 画笔及橡皮擦大小跟随普通光标
+RUNTIME PASS 39 两张地图PNG透明背景实际解码
+RUNTIME PASS 40 地图原方法只有一个识别补丁
+RUNTIME PASS 41 真实地图画图状态使用左图
+RUNTIME PASS 42 原地图覆盖资源仍由游戏持有
+RUNTIME PASS 43 画图按下状态与自定义光标共存
+RUNTIME PASS 44 真实地图擦除状态使用右图
+RUNTIME PASS 45 结束绘图恢复普通咖波
+RUNTIME PASS 46 原游戏临时绘图模式也使用画笔图
+RUNTIME PASS 47 原游戏临时擦除模式也使用橡皮擦图
+RUNTIME PASS 48 地图绘图期间快捷放大8像素
+RUNTIME PASS 49 缩放保存保留两张地图图片路径
+RUNTIME PASS 50 绘图期间重载替换并释放旧地图Image
+RUNTIME PASS 51 绘图期间F9立即恢复原羽毛画笔
+RUNTIME PASS 52 禁用后擦除恢复原橡皮擦
+RUNTIME PASS 53 画笔文件缺失只回退画笔模式
+RUNTIME PASS 54 画笔文件错误时橡皮擦仍可使用
+RUNTIME PASS 55 地图资源识别不替换其他特殊覆盖光标
+RUNTIME PASS 56 游戏内图库打开并列出玩家图片
+RUNTIME PASS 57 图库关闭开关恢复原版且保存
+RUNTIME PASS 58 图库开关可重新启用F9关闭的光标
+RUNTIME PASS 59 地图图片大小跟随普通光标不独立覆盖
+RUNTIME PASS 60 图库保存地图图与热点且保留普通配置
+RUNTIME PASS 61 图库普通图大小立即应用且保留地图设置
+RUNTIME PASS 62 图库打开期间缩放快捷键与尺寸显示同步
+RUNTIME PASS 63 图库打开期间F9与启用开关同步
+RUNTIME PASS 64 实际选图窗口截图保存
+RUNTIME PASS 65 实际布局预览点击映射源图热点
+RUNTIME PASS 66 小窗口中编辑区可滚动避免控件截断
+RUNTIME PASS 67 关闭图库释放预览资源
+RUNTIME PASS 68 F10物理输入路径打开图库
+RUNTIME PASS 69 按住F10不重复开关
+RUNTIME PASS 70 再次F10关闭图库
+RUNTIME PASS 71 坏JSON仍可打开图库恢复配置
+RUNTIME PASS 72 图库默认按钮恢复坏配置并保留备份
+RUNTIME PASS 73 png 两帧与原始延时解码
+RUNTIME PASS 74 png 全帧像素颜色与透明背景
+RUNTIME PASS 75 平时首帧静态与统一热点 png
+RUNTIME PASS 76 左键保持首帧且原版输入仍收到 png
+RUNTIME PASS 77 按住右键播放且不吞原游戏输入 png
+RUNTIME PASS 78 松开右键立即回到首帧 png
+RUNTIME PASS 79 选定第二帧作为默认光标 png
+RUNTIME PASS 80 右键仍从原动画开头播放 png
+RUNTIME PASS 81 松开回选定帧且热点不变 png
+RUNTIME PASS 82 越界默认帧限于实际有效范围 png
+RUNTIME PASS 83 右键动画期间其他特殊光标优先 png
+RUNTIME PASS 84 手柄隐藏期间动画停止且不修改隐藏模式 png
+RUNTIME PASS 85 重载释放所有动画帧 png
+RUNTIME PASS 86 F9停止动画并恢复原版 png
+RUNTIME PASS 87 webp 两帧与原始延时解码
+RUNTIME PASS 88 webp 全帧像素颜色与透明背景
+RUNTIME PASS 89 平时首帧静态与统一热点 webp
+RUNTIME PASS 90 左键保持首帧且原版输入仍收到 webp
+RUNTIME PASS 91 按住右键播放且不吞原游戏输入 webp
+RUNTIME PASS 92 松开右键立即回到首帧 webp
+RUNTIME PASS 93 选定第二帧作为默认光标 webp
+RUNTIME PASS 94 右键仍从原动画开头播放 webp
+RUNTIME PASS 95 松开回选定帧且热点不变 webp
+RUNTIME PASS 96 越界默认帧限于实际有效范围 webp
+RUNTIME PASS 97 右键动画期间其他特殊光标优先 webp
+RUNTIME PASS 98 手柄隐藏期间动画停止且不修改隐藏模式 webp
+RUNTIME PASS 99 重载释放所有动画帧 webp
+RUNTIME PASS 100 F9停止动画并恢复原版 webp
+RUNTIME PASS 101 gif 两帧与原始延时解码
+RUNTIME PASS 102 gif 全帧像素颜色与透明背景
+RUNTIME PASS 103 平时首帧静态与统一热点 gif
+RUNTIME PASS 104 左键保持首帧且原版输入仍收到 gif
+RUNTIME PASS 105 按住右键播放且不吞原游戏输入 gif
+RUNTIME PASS 106 松开右键立即回到首帧 gif
+RUNTIME PASS 107 选定第二帧作为默认光标 gif
+RUNTIME PASS 108 右键仍从原动画开头播放 gif
+RUNTIME PASS 109 松开回选定帧且热点不变 gif
+RUNTIME PASS 110 越界默认帧限于实际有效范围 gif
+RUNTIME PASS 111 右键动画期间其他特殊光标优先 gif
+RUNTIME PASS 112 手柄隐藏期间动画停止且不修改隐藏模式 gif
+RUNTIME PASS 113 重载释放所有动画帧 gif
+RUNTIME PASS 114 F9停止动画并恢复原版 gif
+RUNTIME PASS 115 地图画笔使用自己选定的默认帧
+RUNTIME PASS 116 地图画笔状态支持右键动画
+RUNTIME PASS 117 地图橡皮擦状态切换到自己的动画
+RUNTIME PASS 118 地图动画松开后恢复该模式选定帧
+RUNTIME PASS 119 图库原图完整解码 0b97ebd112b42bcbad9c887680cfc2d4.png
+RUNTIME PASS 120 图库原图完整解码 6675fdf4e584d05a31cc991fc4560423.png
+RUNTIME PASS 121 图库原图完整解码 e48fcd87f1a60d0109d71ae7f3f5320b.png
+RUNTIME PASS 122 图库原图完整解码 咖波_20261013_101112_755_732de614.png
+RUNTIME PASS 123 图库原图完整解码 咖波_20261013_101139_897_c3a2b2f0.png
+RUNTIME PASS 124 图库原图完整解码 咖波_20261013_101222_834_36da949f.png
+RUNTIME PASS 125 图库原图完整解码 咖波_20261013_101304_970_83e65a7e.png
+RUNTIME PASS 126 图库原图完整解码 咖波_20261013_101331_765_68010bd9.png
+RUNTIME PASS 127 图库原图完整解码 咖波_原始示例.png
+RUNTIME PASS 128 图库原图完整解码 咖波_张嘴表情_静态原图.png
+RUNTIME PASS 129 图库原图完整解码 咖波_有人在吗_原始动态.webp
+RUNTIME PASS 130 图库原图完整解码 咖波_有人在吗_无字动态.gif
+RUNTIME PASS 131 图库原图完整解码 咖波_有人在吗_无字动态.webp
+RUNTIME PASS 132 图库原图完整解码 咖波_爱心翅膀_原图.png
+RUNTIME PASS 133 图库原图完整解码 咖波_表情_001_动态.webp
+RUNTIME PASS 134 图库原图完整解码 咖波_表情_002_动态.webp
+RUNTIME PASS 135 图库原图完整解码 咖波_表情_003_动态.webp
+RUNTIME PASS 136 图库原图完整解码 咖波_表情_004_静态.png
+RUNTIME PASS 137 图库原图完整解码 咖波_表情_005_动态.webp
+RUNTIME PASS 138 图库原图完整解码 咖波_表情_006_动态.webp
+RUNTIME PASS 139 图库原图完整解码 咖波_表情_007_动态.webp
+RUNTIME PASS 140 图库原图完整解码 咖波_表情_008_动态.webp
+RUNTIME PASS 141 图库原图完整解码 咖波_表情_009_动态.webp
+RUNTIME PASS 142 图库原图完整解码 咖波_表情_010_动态.webp
+RUNTIME PASS 143 图库原图完整解码 咖波_表情_011_动态.webp
+RUNTIME PASS 144 图库原图完整解码 咖波_表情_012_动态.webp
+RUNTIME PASS 145 图库原图完整解码 咖波_表情_013_动态.webp
+RUNTIME PASS 146 图库原图完整解码 咖波_表情_014_动态.webp
+RUNTIME PASS 147 图库原图完整解码 咖波_表情_015_动态.webp
+RUNTIME PASS 148 图库原图完整解码 咖波_表情_016_动态.webp
+RUNTIME PASS 149 图库原图完整解码 咖波_表情_017_动态.webp
+RUNTIME PASS 150 图库原图完整解码 咖波_表情_018_动态.webp
+RUNTIME PASS 151 图库原图完整解码 咖波_表情_019_动态.webp
+RUNTIME PASS 152 图库原图完整解码 咖波_表情_020_动态.webp
+RUNTIME PASS 153 图库原图完整解码 咖波_表情_021_动态.webp
+RUNTIME PASS 154 图库原图完整解码 咖波_表情_022_动态.webp
+RUNTIME PASS 155 图库原图完整解码 咖波_表情_023_动态.webp
+RUNTIME PASS 156 图库原图完整解码 咖波_表情_024_动态.webp
+RUNTIME PASS 157 图库原图完整解码 咖波_表情_025_动态.webp
+RUNTIME PASS 158 图库原图完整解码 咖波_表情_026_动态.webp
+RUNTIME PASS 159 图库原图完整解码 咖波_表情_027_动态.webp
+RUNTIME PASS 160 图库原图完整解码 咖波_表情_028_动态.webp
+RUNTIME PASS 161 图库原图完整解码 咖波_表情_029_静态.png
+RUNTIME PASS 162 图库原图完整解码 咖波_表情_030_动态.webp
+RUNTIME PASS 163 图库原图完整解码 咖波_表情_031_动态.webp
+RUNTIME PASS 164 图库原图完整解码 咖波_表情_032_动态.webp
+RUNTIME PASS 165 图库原图完整解码 咖波_表情_033_动态.webp
+RUNTIME PASS 166 图库原图完整解码 咖波_表情_034_动态.webp
+RUNTIME PASS 167 图库原图完整解码 咖波_表情_035_动态.webp
+RUNTIME PASS 168 图库原图完整解码 咖波_表情_036_动态.webp
+RUNTIME PASS 169 图库原图完整解码 咖波_表情_037_动态.webp
+RUNTIME PASS 170 图库原图完整解码 咖波_表情_038_动态.webp
+RUNTIME PASS 171 图库原图完整解码 咖波_表情_039_动态.webp
+RUNTIME PASS 172 图库原图完整解码 咖波_表情_040_动态.webp
+RUNTIME PASS 173 图库原图完整解码 咖波_表情_041_动态.webp
+RUNTIME PASS 174 图库原图完整解码 咖波_表情_042_动态.webp
+RUNTIME PASS 175 图库原图完整解码 咖波_表情_043_动态.webp
+RUNTIME PASS 176 图库原图完整解码 咖波_表情_044_动态.webp
+RUNTIME PASS 177 图库原图完整解码 咖波_表情_045_动态.webp
+RUNTIME PASS 178 图库原图完整解码 咖波_表情_046_动态.webp
+RUNTIME PASS 179 图库原图完整解码 咖波_表情_047_动态.webp
+RUNTIME PASS 180 图库原图完整解码 咖波_表情_048_动态.png
+RUNTIME PASS 181 图库原图完整解码 咖波_表情_049_动态.webp
+RUNTIME PASS 182 图库原图完整解码 咖波_表情_050_动态.png
+RUNTIME PASS 183 图库原图完整解码 咖波_表情_051_动态.webp
+RUNTIME PASS 184 图库原图完整解码 咖波_表情_052_动态.webp
+RUNTIME PASS 185 图库原图完整解码 咖波_表情_053_动态.webp
+RUNTIME PASS 186 图库原图完整解码 咖波_表情_054_动态.webp
+RUNTIME PASS 187 图库原图完整解码 咖波_表情_055_动态.png
+RUNTIME PASS 188 图库原图完整解码 咖波_表情_056_动态.webp
+RUNTIME PASS 189 图库原图完整解码 咖波_表情_057_动态.png
+RUNTIME PASS 190 图库原图完整解码 咖波_表情_058_动态.webp
+RUNTIME PASS 191 图库原图完整解码 咖波_表情_059_动态.webp
+RUNTIME PASS 192 图库原图完整解码 咖波_表情_060_动态.webp
+RUNTIME PASS 193 图库原图完整解码 咖波_表情_061_动态.webp
+RUNTIME PASS 194 图库原图完整解码 咖波_表情_062_动态.webp
+RUNTIME PASS 195 图库原图完整解码 咖波_表情_063_动态.webp
+RUNTIME PASS 196 图库原图完整解码 咖波_表情_064_动态.webp
+RUNTIME PASS 197 图库原图完整解码 咖波_表情_065_动态.webp
+RUNTIME PASS 198 图库原图完整解码 咖波_表情_066_动态.webp
+RUNTIME PASS 199 图库原图完整解码 咖波_表情_067_动态.webp
+RUNTIME PASS 200 图库原图完整解码 咖波_表情_068_动态.webp
+RUNTIME PASS 201 图库原图完整解码 咖波_表情_069_动态.webp
+RUNTIME PASS 202 图库原图完整解码 咖波_表情_070_动态.webp
+RUNTIME PASS 203 图库原图完整解码 咖波_表情_071_动态.webp
+RUNTIME PASS 204 图库原图完整解码 咖波_表情_072_动态.webp
+RUNTIME PASS 205 图库原图完整解码 咖波_表情_073_动态.webp
+RUNTIME PASS 206 图库原图完整解码 咖波_表情_074_动态.webp
+RUNTIME PASS 207 图库原图完整解码 咖波_表情_075_动态.webp
+RUNTIME PASS 208 图库原图完整解码 咖波_表情_076_动态.webp
+RUNTIME PASS 209 图库原图完整解码 咖波_表情_077_动态.webp
+RUNTIME PASS 210 图库原图完整解码 咖波_表情_078_动态.png
+RUNTIME PASS 211 图库原图完整解码 咖波_表情_079_动态.png
+RUNTIME PASS 212 图库原图完整解码 咖波_表情_080_动态.png
+RUNTIME PASS 213 图库原图完整解码 咖波_表情_081_动态.png
+RUNTIME PASS 214 图库原图完整解码 咖波_表情_082_动态.png
+RUNTIME PASS 215 图库原图完整解码 咖波_表情_083_动态.png
+RUNTIME PASS 216 图库原图完整解码 咖波_表情_084_动态.png
+RUNTIME PASS 217 图库原图完整解码 咖波_表情_085_动态.png
+RUNTIME PASS 218 图库原图完整解码 咖波_表情_086_动态.png
+RUNTIME PASS 219 图库原图完整解码 咖波_表情_088_动态.png
+RUNTIME PASS 220 图库原图完整解码 咖波_表情_089_动态.webp
+RUNTIME PASS 221 图库原图完整解码 咖波_表情_090_动态.png
+RUNTIME PASS 222 图库原图完整解码 咖波_表情_091_动态.png
+RUNTIME PASS 223 图库原图完整解码 咖波_表情_092_动态.png
+RUNTIME PASS 224 图库原图完整解码 咖波_表情_093_动态.webp
+RUNTIME PASS 225 图库原图完整解码 咖波_表情_095_动态.png
+RUNTIME PASS 226 图库原图完整解码 咖波_表情_096_动态.png
+RUNTIME PASS 227 图库原图完整解码 咖波_表情_097_动态.png
+RUNTIME PASS 228 图库原图完整解码 咖波_表情_098_动态.png
+RUNTIME PASS 229 图库原图完整解码 咖波_表情_099_动态.png
+RUNTIME PASS 230 图库原图完整解码 咖波_表情_100_动态.png
+RUNTIME PASS 231 图库原图完整解码 咖波_表情_101_动态.png
+RUNTIME PASS 232 图库原图完整解码 咖波_表情_102_动态.png
+RUNTIME PASS 233 图库原图完整解码 咖波_表情_103_动态.png
+RUNTIME PASS 234 图库原图完整解码 咖波_表情_104_动态.png
+RUNTIME PASS 235 图库原图完整解码 咖波_表情_105_动态.png
+RUNTIME PASS 236 图库原图完整解码 咖波_表情_107_动态.png
+RUNTIME PASS 237 图库原图完整解码 咖波_表情_108_动态.webp
+RUNTIME PASS 238 图库原图完整解码 咖波_表情_109_动态.webp
+RUNTIME PASS 239 图库原图完整解码 咖波_表情_110_动态.webp
+RUNTIME PASS 240 图库原图完整解码 咖波_表情_111_动态.png
+RUNTIME PASS 241 图库原图完整解码 咖波_表情_112_动态.webp
+RUNTIME PASS 242 图库原图完整解码 咖波_表情_113_动态.png
+RUNTIME PASS 243 图库原图完整解码 咖波_表情_114_动态.webp
+ANIMATION LIBRARY DECODED 125 original files.
+RUNTIME PASS 244 动态图选帧范围与原始帧数一致
+RUNTIME PASS 245 滑条逐帧预览且未保存时不改配置
+RUNTIME PASS 246 帧号与滑条双向同步
+RUNTIME PASS 247 保存选定帧立即作为普通光标默认外观
+RUNTIME PASS 248 实际选帧窗口截图保存
+RUNTIME PASS 249 关闭图库释放所有预览动画帧
+RUNTIME PASS 250 重新打开图库恢复已保存的默认帧
+RUNTIME PASS 251 图库三种模式独立保存默认帧
+RUNTIME PASS 252 切换静态图时禁用选帧并重置预览
+RUNTIME PASS 253 选帧不修改原始动态图
+RUNTIME COMPLETE 253 checks passed; simulated inputs are not complete gameplay validation.
+RUNTIME PASS 1 用户数据隔离
+RUNTIME PASS 2 真实 ModManager 加载 DLL
+RUNTIME PASS 3 选定默认帧跨游戏进程保留
+RUNTIME FRAME RESTART PASS 默认帧选择跨进程保留
+RUNTIME RESTART PASS 配置跨进程持久化（0.2.1，移出测试驱动，72×36）

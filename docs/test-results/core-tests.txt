@@ -1,0 +1,48 @@
+0.1.3 执行结果：44 项核心测试通过；原 42 项及以下新增两项均已运行。
+PASS 画笔和橡皮擦图片配置持久化
+PASS 地图光标空路径与非法热点规范化
+
+以下保留 0.1.2 的 42 项历史记录：
+PASS 配置保存与新实例重启读取
+PASS 原配置备份
+PASS 中文相对路径
+PASS 绝对路径
+PASS 拒绝 URI
+PASS 拒绝空路径
+PASS 非法配置 {
+PASS 非法配置 null
+PASS 非法配置 []
+PASS 非法配置 {"scale":"bad"}
+PASS 非法配置 {"enabled":1}
+PASS JSON数值溢出使用安全默认值
+PASS 配置不可读取
+PASS 拒绝过大配置
+PASS 缺失配置
+PASS 非法参数限幅
+PASS 非有限参数默认值
+PASS 2倍缩放与热点
+PASS 保持比例限制256
+PASS 热点右下越界限幅
+PASS 最小1像素
+PASS 宽图窄边仍合法
+PASS 大源图可以缩小到56像素
+PASS 快捷缩小大图并保留配置
+PASS 快捷缩放下限16
+PASS 快捷缩放上限256
+PASS 被上限截断的倍率仍可缩小
+PASS 非正方形快捷缩放保持比例
+PASS 小源图可以放大到256
+PASS 现有小于16的光标缩小时不会变大
+PASS 合法PNG头
+PASS 拒绝PNG尺寸 (0, 32)
+PASS 拒绝PNG尺寸 (32, 0)
+PASS 拒绝PNG尺寸 (2049, 32)
+PASS 拒绝PNG尺寸 (4294967295, 4294967295)
+PASS 拒绝伪PNG
+PASS 缺少文件
+PASS 大写扩展名与中文PNG读取
+PASS 截断PNG
+PASS 读取前拒绝巨大IHDR
+PASS 文件大小限制
+PASS 不读取脚本
+完成：42 项核心测试通过。PNG 完整解码及实际光标需 Godot/游戏测试。
